@@ -1,0 +1,27 @@
+body{
+    background-color: #00D0D0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#principale{
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width:800px;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    color:#FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+p{
+    text-align: left;
+    padding-left: 20px;
+}

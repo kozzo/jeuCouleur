@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devine la couleur !</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="principale">
+        <h2>Devine la couleur !</h2>
+        <h3 id="reponse"></h3>
+        <div>
+            <input  type="submit" 
+            onclick="guess(1)" 
+                    value=""
+                    class="button"
+                    id="button1">
+            
+            <input  type="submit" 
+                    onclick="guess(2)" 
+                    value=""
+                    class="button"
+                    id="button2">
+            
+            <input  type="submit" 
+                    onclick="guess(3)" 
+                    value=""
+                    class="button"
+                    id="button3">
+                    
+            <input  type="submit" 
+                    onclick="guess(4)" 
+                    value=""
+                    class="button"
+                    id="button4">
+            
+            <input  type="submit" 
+            onclick="guess(5)" 
+                    value=""
+                    class="button"
+                    id="button5">
+                    
+            <input  type="submit" 
+                    onclick="guess(6)" 
+                    value=""
+                    class="button"
+                    id="button6">
+        </div>
+        <br><br>
+        <p>Taux de réussite : <span id="pourcentage">0%</span></p>
+        <p>Victoire d'affilée : <span id="victoire">0</span></p>
+        <p>Record : <span id="record">0</span></p>
+        <input  type="submit" 
+                onclick="playAgain()" 
+                value="Rejouer"
+                id="buttonReplay">
+        <br><br>
+    </div>
+    <script src="./script.js">
+    </script>
+</body>
+</html>
